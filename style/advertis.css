@@ -1,0 +1,96 @@
+
+body{
+    background-color: #f8f8f8;
+}
+/*nav bar*/
+.navbar-default{
+    border: 0;
+    padding: 10px 0;
+    background-color: #FFF;
+
+}
+.navbar-brand{
+    font-size: 45px;
+}
+
+.navbar-form .input-group>.form-control{
+    width: 472px
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-brand:focus{
+    color: #e60e72;
+    background-color: #FFF !important
+    
+}
+.navbar-default .navbar-nav #drp{
+    border: 1px solid transparent;
+}
+.navbar-default .navbar-nav #drp:hover{
+   
+    -webkite- box-shadow: 2px 0 4px rgba(0,0,0,.175);
+    -moz- box-shadow: 2px 0 4px rgba(0,0,0,.175);
+    -o- box-shadow: 2px 0 4px rgba(0,0,0,.175);
+    box-shadow: 2px 0 4px rgba(0,0,0,.175);
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand{
+    color: #3e93e8;
+    
+}
+@media(max-width:990px){
+   .navbar-form .input-group>.form-control{
+    width: 253px;
+    } 
+    .navbar-form{
+        border-top: 0;
+    }
+}
+@media(max-width:767px){
+   .navbar-form .input-group>.form-control{
+    width: 473px;
+    } 
+}
+@media(max-width:578px){
+   .navbar-form .input-group>.form-control{
+    width: 300px;
+    } 
+    .navbar-nav>li>.dropdown-menu .btn{
+
+    width: 400px;
+    font-size: 30px;
+}
+}
+.input-group-btn:last-child>.btn:hover, .input-group-btn:last-child>.btn:focus{
+    background-color: #FFF;
+    color: #f54597;
+    
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+    color: #e60e72;
+    
+}
+
+.navbar-nav>li>.dropdown-menu{
+    border: 0;
+    position: absolute;
+    right: -1px;
+    -webkite- box-shadow: 2px 2px 4px rgba(0,0,0,.175);
+    -moz- box-shadow: 2px 2px 4px rgba(0,0,0,.175);
+    -o- box-shadow: 2px 2px 4px rgba(0,0,0,.175);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.175);
+    
+}
+.navbar-nav>li>.dropdown-menu .btn{
+    margin: 5px;
+    margin-top: 50px;
+    padding 20px;
+    background-color: red;
+    width: 300px;
+    font-size: 20px;
+}
+
+.my-head{
+    font-size: 100px;
+}
